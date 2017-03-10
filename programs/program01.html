@@ -3,10 +3,28 @@
 	<head>
 		<meta charset="UTF-8">
 		<script type="text/javascript" src="processing.js"></script>
-		<title>Insert Name Program</title>
+		<title>Insert Program Name</title>
 	</head>
 		
 	<body>
+		<h1>Insert Program Name<h1>
 		<canvas data-processing-sources="program01.pde"></canvas>
+		<h2>Program Code:</h2>
+		<pre>
+//Snow Angel Demo
+
+void setup(){
+   size(500,500);
+   background(0,0,255);
+   stroke(0,0,255);
+}
+
+void draw(){
+ line(150, 150, mouseX, mouseY);
+ if(mousePressed){
+   stroke(255);
+ }
+}	
+		<pre>
 	</body>
 </html>
